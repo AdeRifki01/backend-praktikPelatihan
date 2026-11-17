@@ -1,0 +1,27 @@
+{
+  "name": "backend-siswa",
+  "version": "1.0.0",
+  "description": "Backend API CRUD Data Siswa menggunakan Express.js dan PostgreSQL",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "express",
+    "postgresql",
+    "crud",
+    "api"
+  ],
+  "author": "Ade Rifki",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
